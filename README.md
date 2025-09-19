@@ -1,6 +1,6 @@
 # Hugging-Face-Pipeline-Tutorial
 This repository contains a hands-on tutorial demonstrating how to use the Hugging Face Transformers pipeline API for various Natural Language Processing (NLP) tasks.  The tutorial is implemented in the Jupyter notebook: Hugginface_pipline.ipynb.
-📌 Overview
+# 📌 Overview
 
 The Hugging Face pipeline provides a high-level API to quickly apply state-of-the-art models for:
 
@@ -24,7 +24,7 @@ Apply them to text inputs.
 
 Interpret the outputs.
 
-📂 Contents
+# 📂 Contents
 
 Introduction: What the pipeline API is and why it simplifies NLP workflows.
 
@@ -46,7 +46,7 @@ Custom Models: How to specify model names or load locally fine-tuned models.
 
 Conclusion: Summary and next steps for deeper Hugging Face usage.
 
-⚙️ Installation
+# ⚙️ Installation
 
 Before running the notebook, install the required dependencies:
 
@@ -57,7 +57,7 @@ For GPU acceleration (optional, recommended):
 
 pip install torch --index-url https://download.pytorch.org/whl/cu121
 
-▶️ Usage
+# ▶️ Usage
 
 Clone this repository or download the notebook.
 
