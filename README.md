@@ -50,7 +50,7 @@ Conclusion: Summary and next steps for deeper Hugging Face usage.
 
 Before running the notebook, install the required dependencies:
 
-pip install transformers torch
+## pip install transformers torch
 
 
 For GPU acceleration (optional, recommended):
@@ -63,13 +63,13 @@ Clone this repository or download the notebook.
 
 Open the notebook:
 
-jupyter notebook Hugginface_pipline.ipynb
+## jupyter notebook Hugginface_pipline.ipynb
 
 
 Run each cell to explore different pipeline examples.
 
 📖 References
 
-Hugging Face Transformers Documentation
+## Hugging Face Transformers Documentation
 
-Pipeline API Guide
+## Pipeline API Guide
