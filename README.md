@@ -1,75 +1,36 @@
-# Hugging-Face-Pipeline-Tutorial
-This repository contains a hands-on tutorial demonstrating how to use the Hugging Face Transformers pipeline API for various Natural Language Processing (NLP) tasks.  The tutorial is implemented in the Jupyter notebook: Hugginface_pipline.ipynb.
-# 📌 Overview
+from pathlib import Path
 
-The Hugging Face pipeline provides a high-level API to quickly apply state-of-the-art models for:
+# README.md content
+readme_content = """# Hugging-Face-Pipeline-Tutorial
 
-Text classification (sentiment analysis, topic classification, etc.)
+This repository contains a hands-on tutorial on using the **Hugging Face Transformers `pipeline` API** for various Natural Language Processing (NLP) tasks.  
 
-Named entity recognition (NER)
+The tutorial is implemented in the Jupyter notebook: **`Hugginface_pipline.ipynb`**.
 
-Question answering
+---
 
-Text generation
+## 📌 Overview
+The Hugging Face `pipeline` API provides a simple, high-level interface to state-of-the-art models. With just a few lines of code, you can perform tasks such as:
 
-Masked language modeling
+- ✅ Sentiment Analysis  
+- ✅ Masked Language Modeling (Fill-Mask)  
+- ✅ Text Generation  
+- ✅ Question Answering  
+- ✅ Translation & Summarization  
 
-Translation and summarization
+This notebook walks you through each of these tasks step-by-step.
 
-This tutorial walks through multiple examples step-by-step, showing how to:
+---
 
-Load pretrained models with a single line of code.
+## 📂 Repository Contents
+- **`Hugginface_pipline.ipynb`** → Main tutorial notebook with examples.  
+- **README.md** → Project description and usage guide.  
 
-Apply them to text inputs.
+---
 
-Interpret the outputs.
+## ⚙️ Installation
 
-# 📂 Contents
+Make sure you have Python 3.8+ installed. Then install the dependencies:
 
-Introduction: What the pipeline API is and why it simplifies NLP workflows.
-
-Setup: Installing dependencies and preparing the environment.
-
-Examples:
-
-Sentiment analysis
-
-Fill-mask prediction
-
-Text generation
-
-Question answering
-
-Translation and summarization
-
-Custom Models: How to specify model names or load locally fine-tuned models.
-
-Conclusion: Summary and next steps for deeper Hugging Face usage.
-
-# ⚙️ Installation
-
-Before running the notebook, install the required dependencies:
-
-## pip install transformers torch
-
-
-For GPU acceleration (optional, recommended):
-
-pip install torch --index-url https://download.pytorch.org/whl/cu121
-
-# ▶️ Usage
-
-Clone this repository or download the notebook.
-
-Open the notebook:
-
-## jupyter notebook Hugginface_pipline.ipynb
-
-
-Run each cell to explore different pipeline examples.
-
-📖 References
-
-## Hugging Face Transformers Documentation
-
-## Pipeline API Guide
+```bash
+pip install transformers torch
